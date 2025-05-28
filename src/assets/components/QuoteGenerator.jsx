@@ -38,7 +38,7 @@ const QuoteGenerator = () => {
   };
 
   if (loading) {
-    return <div>Loading quotes...</div>;
+    return <div>Loading your quotes.....</div>;
   }
 
   if (error) {
@@ -46,7 +46,7 @@ const QuoteGenerator = () => {
   }
 
   if (quotes.length === 0) {
-    return <div>No quotes available</div>;
+    return <div>No quotes available.!!</div>;
   }
 
   const currentQuote = quotes[currentIndex];
@@ -61,7 +61,7 @@ const QuoteGenerator = () => {
       borderRadius: '8px',
       boxShadow: '0 2px 4px rgba(205, 32, 32, 0.1)'
     }}>
-      <h2>Quote Generator</h2>
+      <h2>My Qoutes here</h2>
       <div style={{
         margin: '20px 0',
         padding: '20px',
