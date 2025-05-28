@@ -1,5 +1,4 @@
 import "@mantine/core/styles.css";
-
 import { MantineProvider } from "@mantine/core";
 import "./App.css";
 import { useState, useEffect } from "react";
@@ -9,6 +8,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+
 import Login from "./assets/components/Login";
 import Signup from "./assets/components/Signup";
 import Dashboard from "./assets/components/Dashboard";
@@ -50,8 +50,14 @@ function App() {
                 element={
                   isAuthenticated ? (
                     <Dashboard setIsAuthenticated={setIsAuthenticated} />
-                  ) : (
+
+                    
+                  ) : (<div>
+                  
                     <Navigate to="/login" />
+                    
+              
+                  </div>
                   )
                 }
               />

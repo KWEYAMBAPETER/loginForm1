@@ -1,5 +1,7 @@
 import Chart from "../components/chart";
 import Mform from '../components/Mforms'
+import QuoteGenerator from "../components/QuoteGenerator";
+import WeatherApp from "../components/weathercard"
 function Home() {
  
 
@@ -13,6 +15,8 @@ function Home() {
         </div>
         <div>
           <Mform/>
+          <QuoteGenerator />
+          <WeatherApp/>
         </div>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum,
