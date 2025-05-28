@@ -1,0 +1,41 @@
+.Card_Image{
+border-radius: 50%;
+width: auto;
+border: 2px dotted hsl(129, 80%, 94%);
+
+}
+
+button{
+color: white;
+background-color: aqua;
+position:bottom;
+border: none;
+margin: 0 4px;
+
+}
+button:hover{
+    color: rgb(242, 242, 243);
+    background-color: blueviolet;
+
+}
+h2,h1{
+    color: blue;
+}
+.Card_Div{
+    border: 2px solid Marble ;
+    width: 30%;
+    max-height: 80vh;
+    background-color: lavender;
+    margin: 10px;
+    column-gap: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.Card_Div:hover{
+    color: aliceblue;
+    background-color: rgb(210, 214, 212);
+    animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: 0.3ms ease-in-out;
+}
