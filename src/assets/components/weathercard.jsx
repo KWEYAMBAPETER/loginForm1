@@ -41,7 +41,7 @@ const WeatherApp = () => {
   useEffect(() => {
     const fetchWeatherData = async () => {
       try {
-        const apiKey = '640695a6ce024ba0972150012252805'; // Replace with your actual API key
+        const apiKey = '12dbce89eeb14eadbd5160405252805'; // Replace with your actual API key
         const promises = cities.map(city =>
           fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`)
             .then(response => {

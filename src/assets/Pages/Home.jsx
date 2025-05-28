@@ -30,8 +30,10 @@ function Home() {
             alt="bird" width="700px"
           />
             
+            <div id="weatherapi-weather-widget-1"></div><script type='text/javascript' src='https://www.weatherapi.com/weather/widget.ashx?loc=2532671&wid=1&tu=1&div=weatherapi-weather-widget-1' async></script><noscript><a href="https://www.weatherapi.com/weather/q/kireka-2532671" alt="Hour by hour Kireka weather">10 day hour by hour Kireka weather</a></noscript>
           
-          
+
+          <div id="weatherapi-weather-widget-4"></div><script type='text/javascript' src='https://www.weatherapi.com/weather/widget.ashx?loc=2532671&wid=4&tu=1&div=weatherapi-weather-widget-4' async></script><noscript><a href="https://www.weatherapi.com/weather/q/kampala-2532671" alt="Hour by hour Kireka weather">10 day hour by hour Kireka weather</a></noscript>
           <p>
             Explore our website demo to see how our features work and experience
             the user-friendly design. This preview gives you a glimpse of what
